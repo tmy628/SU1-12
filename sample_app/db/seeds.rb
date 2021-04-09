@@ -10,8 +10,9 @@
     title: 'railsを学ぼう',
     body: 'seedファイルについて'
   )
-# 初期データの記述
+  # 初期データの記述
 
   10.times do |number|
     List.create!(title: 'timesを学習しよう',body: number)
   end
+  # timesメソッドを用いて、seedファイルでは同時に複数のデータを作成する事ができる
